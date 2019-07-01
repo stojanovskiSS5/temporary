@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FINKI_Application_ocr", "FINKI_Application_ocr\FINKI_Application_ocr.csproj", "{C7EB46F9-A86C-4607-8B95-30FB4EF115EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{3C695CB7-AB52-4331-AE70-A68D43275C11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manager", "Manager", "{E1C4ECFD-90C8-4630-9B24-D1E48DBE2E9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapping", "Mapping", "{95B11EC9-4D37-4432-86B9-1EE3A3F9DE82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{68242FA8-B295-4AC0-9016-00B5C8A63F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FINKI_Application_ocr.Contracts", "FINKI_Application_ocr.Contracts\FINKI_Application_ocr.Contracts.csproj", "{5B0BB6B3-4494-4F6F-9908-F5305D4CBEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FINKI_Application_ocr.Manager", "FINKI_Application_ocr.Manager\FINKI_Application_ocr.Manager.csproj", "{64C50661-20E5-4464-AB05-7560466BB9FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{FDEBB064-6740-4A74-9C00-43183B96B17C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FINKI_Application_ocr.Mapping", "FINKI_Application_ocr.Mapping\FINKI_Application_ocr.Mapping.csproj", "{6B4F18B6-67E6-4587-ABD6-82F4BB69FF8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{4C7492C8-752A-42C4-95FE-614E9288FA4E}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FinkiApplicationOcrDatabase", "FinkiApplicationOcrDatabase\FinkiApplicationOcrDatabase.sqlproj", "{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataManipulation", "DataManipulation", "{B7427FBB-3D5A-4669-94B0-147B1B775541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FINKI_Application_ocr.Datamanipulation", "FINKI_Application_ocr.Datamanipulation\FINKI_Application_ocr.Datamanipulation.csproj", "{E52909F3-21D0-40FA-BE04-26C1C4C2295E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7EB46F9-A86C-4607-8B95-30FB4EF115EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EB46F9-A86C-4607-8B95-30FB4EF115EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EB46F9-A86C-4607-8B95-30FB4EF115EB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C7EB46F9-A86C-4607-8B95-30FB4EF115EB}.Debug|x86.Build.0 = Debug|Any CPU
+		{C7EB46F9-A86C-4607-8B95-30FB4EF115EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EB46F9-A86C-4607-8B95-30FB4EF115EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EB46F9-A86C-4607-8B95-30FB4EF115EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{C7EB46F9-A86C-4607-8B95-30FB4EF115EB}.Release|x86.Build.0 = Release|Any CPU
+		{5B0BB6B3-4494-4F6F-9908-F5305D4CBEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0BB6B3-4494-4F6F-9908-F5305D4CBEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0BB6B3-4494-4F6F-9908-F5305D4CBEEB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5B0BB6B3-4494-4F6F-9908-F5305D4CBEEB}.Debug|x86.Build.0 = Debug|Any CPU
+		{5B0BB6B3-4494-4F6F-9908-F5305D4CBEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0BB6B3-4494-4F6F-9908-F5305D4CBEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0BB6B3-4494-4F6F-9908-F5305D4CBEEB}.Release|x86.ActiveCfg = Release|Any CPU
+		{5B0BB6B3-4494-4F6F-9908-F5305D4CBEEB}.Release|x86.Build.0 = Release|Any CPU
+		{64C50661-20E5-4464-AB05-7560466BB9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C50661-20E5-4464-AB05-7560466BB9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C50661-20E5-4464-AB05-7560466BB9FD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{64C50661-20E5-4464-AB05-7560466BB9FD}.Debug|x86.Build.0 = Debug|Any CPU
+		{64C50661-20E5-4464-AB05-7560466BB9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C50661-20E5-4464-AB05-7560466BB9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C50661-20E5-4464-AB05-7560466BB9FD}.Release|x86.ActiveCfg = Release|Any CPU
+		{64C50661-20E5-4464-AB05-7560466BB9FD}.Release|x86.Build.0 = Release|Any CPU
+		{6B4F18B6-67E6-4587-ABD6-82F4BB69FF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4F18B6-67E6-4587-ABD6-82F4BB69FF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4F18B6-67E6-4587-ABD6-82F4BB69FF8C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B4F18B6-67E6-4587-ABD6-82F4BB69FF8C}.Debug|x86.Build.0 = Debug|Any CPU
+		{6B4F18B6-67E6-4587-ABD6-82F4BB69FF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4F18B6-67E6-4587-ABD6-82F4BB69FF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4F18B6-67E6-4587-ABD6-82F4BB69FF8C}.Release|x86.ActiveCfg = Release|Any CPU
+		{6B4F18B6-67E6-4587-ABD6-82F4BB69FF8C}.Release|x86.Build.0 = Release|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Debug|x86.Build.0 = Debug|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Release|x86.ActiveCfg = Release|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Release|x86.Build.0 = Release|Any CPU
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC}.Release|x86.Deploy.0 = Release|Any CPU
+		{E52909F3-21D0-40FA-BE04-26C1C4C2295E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52909F3-21D0-40FA-BE04-26C1C4C2295E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52909F3-21D0-40FA-BE04-26C1C4C2295E}.Debug|x86.ActiveCfg = Debug|x86
+		{E52909F3-21D0-40FA-BE04-26C1C4C2295E}.Debug|x86.Build.0 = Debug|x86
+		{E52909F3-21D0-40FA-BE04-26C1C4C2295E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52909F3-21D0-40FA-BE04-26C1C4C2295E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52909F3-21D0-40FA-BE04-26C1C4C2295E}.Release|x86.ActiveCfg = Release|x86
+		{E52909F3-21D0-40FA-BE04-26C1C4C2295E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7EB46F9-A86C-4607-8B95-30FB4EF115EB} = {3C695CB7-AB52-4331-AE70-A68D43275C11}
+		{5B0BB6B3-4494-4F6F-9908-F5305D4CBEEB} = {68242FA8-B295-4AC0-9016-00B5C8A63F73}
+		{64C50661-20E5-4464-AB05-7560466BB9FD} = {E1C4ECFD-90C8-4630-9B24-D1E48DBE2E9B}
+		{FDEBB064-6740-4A74-9C00-43183B96B17C} = {95B11EC9-4D37-4432-86B9-1EE3A3F9DE82}
+		{6B4F18B6-67E6-4587-ABD6-82F4BB69FF8C} = {FDEBB064-6740-4A74-9C00-43183B96B17C}
+		{358ECE98-274E-4CAD-938A-CEBD6AFA58CC} = {4C7492C8-752A-42C4-95FE-614E9288FA4E}
+		{E52909F3-21D0-40FA-BE04-26C1C4C2295E} = {B7427FBB-3D5A-4669-94B0-147B1B775541}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A99F9D6D-D3F6-45E1-935A-D792435134EE}
+	EndGlobalSection
+EndGlobal

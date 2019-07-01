@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.dbmdl
+*.jfm
+FinkiApplicationOcrDatabase/
+Finki_Application_ocr.Datamanipulation/Images/*
+Finki_Application_ocr.Datamanipulation/PdfFiles/*
+Finki_Application_ocr.Datamanipulation/PdfImages/*
+FinkiApplicationOcrDatabase/bin
+FINKI_Application_ocr.Mapping/bin
+FINKI_Application_ocr.Manager/bin
+FINKI_Application_ocr.Datamanipulation/bin
+FINKI_Application_ocr.Contracts/bin
+FINKI_Application_ocr/bin
+FinkiApplicationOcrDatabase/obj
+FINKI_Application_ocr.Mapping/obj
+FINKI_Application_ocr.Manager/obj
+FINKI_Application_ocr.Datamanipulation/obj
+FINKI_Application_ocr.Contracts/obj
+FINKI_Application_ocr/obj
+vs/*
