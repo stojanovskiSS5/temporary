@@ -4,7 +4,6 @@
 
 *.dbmdl
 *.jfm
-FinkiApplicationOcrDatabase/
 Finki_Application_ocr.Datamanipulation/Images/*
 Finki_Application_ocr.Datamanipulation/PdfFiles/*
 Finki_Application_ocr.Datamanipulation/PdfImages/*
@@ -21,3 +20,4 @@ FINKI_Application_ocr.Datamanipulation/obj
 FINKI_Application_ocr.Contracts/obj
 FINKI_Application_ocr/obj
 vs/*
+/FinkiApplicationOcrDatabase/Import Schema Logs
